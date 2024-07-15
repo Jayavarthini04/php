@@ -1,0 +1,14 @@
+$array = array("abi", "snegha",
+            "geetha", "1", "2","3");  
+
+echo "Count first array elements: " . count($array) . "\n"; 
+
+$array = array(
+  'names' => array("abi", "snegha", "geetha"), 
+  'rank' => array('1', '2', '3')
+); 
+
+echo "Recursive count: " . count($array, 1) . "\n"; 
+echo "Normal count: " . count($array, 0); 
+
+?> 
